@@ -26,6 +26,8 @@ Now, create the deployment.yaml and service.yaml to deploy the node.js applicati
 
 After creating, check the pods by using "kubectl get pods" and list all the services by using "kubectl get svc".
 
+Now, forward the port to access the application.
+
 Now, test the application in the browser by performing all the operations.
 
 Now create a public repository in git "sit737-2025-prac6p", and clone the repository.
