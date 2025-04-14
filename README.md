@@ -10,15 +10,15 @@ Firstly, download git from the official git website "https://git-scm.com/" and c
 
 Now, pull the code from the previous week repository "https://github.com/vivekolladapu/sit737-2025-prac5p". 
 
-Build by using docker compose and test the working of calculation operations in the website.
-
-Push the image to the docker hub.
-
 Now, create a folder called kubernetes-configs and create deployment.yaml file and service.yaml in it.
 
 The project structure should as mentioned below:
 
 sit737-2025-prac6p |-- kubernetes-configs ||--(deployment.yaml) ||--(service.yaml) |--node_modules |--logs | |--(combined.log) | |--(error.log) |--server.js |-Dockerfile |--docker-compose.yml |--package.json |--package-lock.json |--README.md
+
+Build by using docker compose and test the working of calculation operations in the website.
+
+Push the image to the docker hub.
 
 Now, test the current context by using "kubectl config current-context", if it not showing "docker-desktop", then change it to "docker-desktop" by using "kubectl config use-context docker-desktop".
 
